@@ -7,12 +7,12 @@ this rule, since I believe Anaconda may prompt you to choose which Python to use
 that comes with anaconda). You’ll also want to make sure pip is fully updated (pip install –upgrade pip or 
 python -m pip install –upgrade pip).
 
-1. Install [Anaconda w/ Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) 
-2. Install/clone imgaug library
-3. Install Tensorflow
-NOTE: I have had issues following the instructions to install this before on Windows. If you run into issues, try opening the command line,
-activating an Anaconda virtual environment, and installing Tensorflow using pip. This link may be more helpful -> Another Tensorflow Link
-4. Install Keras
+1. [Install Anaconda w/ Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) 
+2. [Install/clone imgaug library](https://github.com/aleju/imgaug)
+3. [Install Tensorflow](https://www.tensorflow.org/install/pip)
+NOTE: I have had issues following the instructions to install this before on Windows. If you run into issues, try opening the command line, activating an Anaconda virtual environment, and installing Tensorflow using pip. 
+This link may be more helpful -> [Another Tensorflow Link](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html)
+4. [Install Keras](https://keras.io/)
 5. pip install all other essential libraries needed. This may include:
 - os
 - glob
@@ -21,12 +21,8 @@ activating an Anaconda virtual environment, and installing Tensorflow using pip.
 - numpy
 - pickle
 - matplotlib
-6. Clone my repository on GitHub
+6. [Clone my repository on GitHub](https://github.com/alswilli/CMPS-184-ImgAug-Presentation)
 
-You should now be able to run my project using Jupyter notebook by navigating to the cloned repo locally and opening the ‘Copy for Testing’
-ipynb file. Please keep in mind that if running this on a laptop without a GPU, you may not be able to run the Convolutional Neural Network
-I used to train the model (ResNet) due to memory constraints. I occasionally run into memory issues on my computer as well, but I can 
-easily fix them by restarting my Jupyter notebook instance. If you are able to run the model, then it may also take several minutes or 
-hours to finish depending on laptop specs. Deep Learning works much better when training using a GPU versus a CPU.
+You should now be able to run my project using Jupyter notebook by navigating to the cloned repo locally and opening the ‘Copy for Testing’ ipynb file. Please keep in mind that if running this on a laptop without a GPU, you may not be able to run the Convolutional Neural Network I used to train the model (ResNet) due to memory constraints. I occasionally run into memory issues on my computer as well, but I can easily fix them by restarting my Jupyter notebook instance. If you are able to run the model, then it may also take several minutes or hours to finish depending on laptop specs. Deep Learning works much better when training using a GPU versus a CPU.
 
-If you aren’t able to run the project locally. You may also be able to run it via importing to Google Colab. 
+If you aren’t able to run the project locally. You may also be able to run it via importing to [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=GJBs_flRovLc). 
