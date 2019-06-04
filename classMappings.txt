@@ -1,0 +1,2 @@
+trainingFolders\class1 Scarlett
+trainingFolders\class2 Pistachio
