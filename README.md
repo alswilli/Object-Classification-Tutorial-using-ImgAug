@@ -1,5 +1,7 @@
 # Object-Classification-Tutorial-using-ImgAug
 
+Link to ipynb file: https://colab.research.google.com/drive/1jTtimp8iZlIrRZMyjdsB0aFbYmIOUyJp
+
 Before attempting the steps below, please keep in mind that any python libraries you install using pip (or potentially other methods) 
 must be installed such that the environment you are using can access them. For example, if running Jupyter notebook by using Anaconda, 
 make sure you install while in the anaconda virtual environment on the command line. Python version may be one of the exceptions to 
